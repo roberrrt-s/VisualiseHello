@@ -11,6 +11,8 @@ function initSockets() {
             socket.emit('update string', document.getElementById('input-field').value)
         })
 
+        document.getElementById('waiting').remove();
+
         socket.on('twitter-stream', data => {
             console.log('received data')
             if(last !== data.src) {
