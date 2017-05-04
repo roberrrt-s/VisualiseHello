@@ -10,6 +10,7 @@ Visualise Hello is a Twitter-based visualisation tool to read realtime streaming
 ## Installation
 
  - Fork this repository to your PC
+ - Retrieve your personal Twitter credentials & keys
  - Create a config.json file in the root folder, like this:
 
  ```json
