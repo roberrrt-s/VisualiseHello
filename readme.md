@@ -39,6 +39,13 @@ Visualise Hello accepts custom search queries to adjust the live twitter stream.
 
 Users can save images they like by clicking on them. They are being transferred to a local variable at the servers endpoint and can hold a maximum of 15 images at once. As soon as the 16th image is being saved, a FIFO (first-in first-out) principle removes the oldest entry to make room for the new image.
 
+## Future options
+
+ - Customize images to match with users by saving a cookie to the client side that. Matching cookies/images can contain a customized colored border.
+ - Include usernames with the images so people can track who saved which picture.
+ - Remove saved images.
+ - Add more detailed search criteria and sanitize user input to avoid crashing.
+
 ## Credits
 
 The following resources were used frequently while building this application:
