@@ -14,7 +14,7 @@ Visualise Hello is a Twitter-based visualisation tool to read realtime streaming
 
  ```json
 	{
-		"port" : 'YOUR PORT OF CHOICE (INT)',
+		"port" : "YOUR PORT OF CHOICE (INT)",
 		"consumer_key" : "YOUR CONSUMER KEY (STRING)",
 		"consumer_secret" : "YOUR CONSUMER SECRET (STRING)",
 		"access_token_key" : "YOUR ACCESS TOKEN KEY (STRING)",
