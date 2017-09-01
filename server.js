@@ -95,7 +95,7 @@ function initSockets() {
         });
 
         // As soon as we've set up all events, send the 'connected' event to the client to complete the handshake
-		socket.emit('connected');
+		socket.emit('we have established a connection!');
 
 	});
 }
