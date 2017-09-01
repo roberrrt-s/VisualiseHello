@@ -147,7 +147,7 @@ function initStream() {
 			if(checkInput()) {
 				// If so, destroy the stream
 				stream.destroy();
-				// And re-init the stream wit the new query
+				// And re-init the stream with the new query
 				initStream();
 				console.log(`Restarted stream with query: ${local.inputString}`)
 			}
